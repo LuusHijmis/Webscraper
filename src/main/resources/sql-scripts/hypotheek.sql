@@ -1,0 +1,5 @@
+INSERT INTO public.hypotheek (id, hypotheeknummer, hypotheeksom, ingangsdatum) VALUES (1, '12345679', 250000, '2009-09-01');
+INSERT INTO public.leningdeel (id, ingangsdatum_rente_wijziging, leenbedrag, leningnummer, omschrijving, oorspronkelijke_rente, hypotheek_id) VALUES (1, '2022-09-01', 70487.00, '1.430.214.130', 'aflossingsvrij', 5.85, 1);
+INSERT INTO public.leningdeel (id, ingangsdatum_rente_wijziging, leenbedrag, leningnummer, omschrijving, oorspronkelijke_rente, hypotheek_id) VALUES (2, '2022-09-01', 47513.00, '1.430.214.131', 'aflossingsvrij', 5.85, 1);
+INSERT INTO public.rente (id, rente_percentage, rente_vaste_duur, rente_wijzigings_datum, risicoklasse) VALUES (2, 1.55, '1 maand', '2022-08-17', 'NHG');
+INSERT INTO public.rente (id, rente_percentage, rente_vaste_duur, rente_wijzigings_datum, risicoklasse) VALUES (2, 2.35, '1 maand', '2022-10-01', 'NHG');

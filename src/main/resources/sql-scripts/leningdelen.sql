@@ -1,0 +1,2 @@
+INSERT INTO public.leningdeel (id, ingangsdatum, leenbedrag, leningnummer, omschrijving, oorspronkelijke_rente, hypotheek_id) VALUES (2, '2009-09-01', 100000, '1.430.214.130', 'aflossingsvrij', 5.85, 1);
+INSERT INTO public.leningdeel (id, ingangsdatum, leenbedrag, leningnummer, omschrijving, oorspronkelijke_rente, hypotheek_id) VALUES (3, '2009-09-01', 100000, '1.430.214.131', 'aflossingsvrij', 5.85, 1);
